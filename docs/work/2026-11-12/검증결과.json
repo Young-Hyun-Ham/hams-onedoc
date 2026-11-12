@@ -1,0 +1,88 @@
+{
+  "base": "http://127.0.0.1:3100",
+  "checks": [
+    "dashboard fixtures, navigation and equal header/logo height",
+    "responsive layout and footer: 1440 / 1024 / 768 / 390",
+    "theme persistence and light/dark text contrast >= 4.5",
+    "mobile drawer Escape and focus restoration",
+    "deep-linked requirement evidence, modal and browser back",
+    "document preview, invalid tab normalization and project isolation",
+    "project selection, unsaved-navigation confirmation and draft reset",
+    "team filters/reset and seven Agent component details",
+    "generation samples, not-found and development-only state previews",
+    "theme works when browser storage is denied",
+    "no browser exceptions or console errors"
+  ],
+  "screenshots": "C:\\workspace\\hams\\hams-onedoc\\docs\\work\\2026-11-12\\screenshots",
+  "contrast": {
+    "light": [
+      {
+        "pair": "--foreground/--surface",
+        "ratio": 16.185871657067192
+      },
+      {
+        "pair": "--muted/--surface",
+        "ratio": 5.008679521156634
+      },
+      {
+        "pair": "--muted/--background",
+        "ratio": 4.757582352562177
+      },
+      {
+        "pair": "--brand/--brand-soft",
+        "ratio": 5.635604567456319
+      },
+      {
+        "pair": "--brand-foreground/--brand",
+        "ratio": 6.217520120984313
+      },
+      {
+        "pair": "--success/--success-soft",
+        "ratio": 5.123024097673499
+      },
+      {
+        "pair": "--warning/--warning-soft",
+        "ratio": 5.104229129976068
+      },
+      {
+        "pair": "--blue/--blue-soft",
+        "ratio": 5.523558875317278
+      }
+    ],
+    "dark": [
+      {
+        "pair": "--foreground/--surface",
+        "ratio": 15.020782484201831
+      },
+      {
+        "pair": "--muted/--surface",
+        "ratio": 8.854397381076927
+      },
+      {
+        "pair": "--muted/--background",
+        "ratio": 9.606100929387225
+      },
+      {
+        "pair": "--brand/--brand-soft",
+        "ratio": 5.431258542212353
+      },
+      {
+        "pair": "--brand-foreground/--brand",
+        "ratio": 6.649454255637137
+      },
+      {
+        "pair": "--success/--success-soft",
+        "ratio": 7.696095554251077
+      },
+      {
+        "pair": "--warning/--warning-soft",
+        "ratio": 8.46193540745413
+      },
+      {
+        "pair": "--blue/--blue-soft",
+        "ratio": 6.786951220004746
+      }
+    ]
+  },
+  "errors": []
+}

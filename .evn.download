@@ -1,0 +1,35 @@
+
+APP_URL=http://localhost:3000
+
+# Turso/libSQL - hams-matrix
+TURSO_DATABASE_URL=libsql://xxx.turso.io
+TURSO_AUTH_TOKEN="xxx"
+
+# Console redirect URLs: {APP_URL}/api/auth/oauth/{provider}/callback
+# hamgatalk@gmail.com 계정
+GOOGLE_CLIENT_ID=xxx
+GOOGLE_CLIENT_SECRET=GOCSPX-xxx
+# hyh8414 계정
+NAVER_CLIENT_ID=xxx
+NAVER_CLIENT_SECRET=xxx
+# hyh8414@naver.com 계정
+KAKAO_CLIENT_ID=xxx
+KAKAO_CLIENT_SECRET=xxx
+
+# OPENAI_MODEL=gpt-4o-mini
+OPENAI_API_KEY=sk-proj-xxx-SZ-NOJ-uIUgX5vsuooFON3G98MQNEgA
+
+AI_IMAGE_ENCRYPTION_KEY=xxx=
+
+# cloudflare hyh8414@gmail.com / D4397!
+CLOUDFLARE_ACCOUNT_ID=xxx
+R2_TOKEN=xxx
+R2_ACCESS_KEY_ID=xxx
+R2_SECRET_ACCESS_KEY=xxx
+R2_BUCKET_NAME=xxx
+R2_ENDPOINT=https://xxx.r2.cloudflarestorage.com
+
+# ONLYOFFICE docker server
+ONLYOFFICE_DOCUMENT_SERVER_URL=https://onlyoffice-docs-449443247868.asia-northeast3.run.app
+ONLYOFFICE_PUBLIC_APP_URL=http://localhost:3000
+ONLYOFFICE_JWT_SECRET=xxx
